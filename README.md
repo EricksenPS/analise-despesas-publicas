@@ -21,7 +21,7 @@ O projeto cobre os meses de **maio, junho e julho de 2026**.
 
 - **SQL Server / SSMS** — armazenamento, tratamento e análise dos dados
 - **Excel** — inspeção inicial dos arquivos brutos
-- *(Em andamento)* **Power BI** — construção de dashboard interativo
+- **Power BI** — dashboard interativo com 6 visuais (evolução mensal, distribuição por órgão/função/UF)
 
 ## ⚙️ Processo de ETL (Extração, Tratamento e Carga)
 
@@ -89,20 +89,19 @@ O Fundo Nacional de Desenvolvimento da Educação (FNDE) lidera com folga (R$ 31
 
 ## 📊 Próximos passos
 
-- Construção de dashboard interativo no **Power BI**, com medidas DAX para as métricas já validadas em SQL
 - Estudo de *window functions* (`ROW_NUMBER()`, `PARTITION BY`) para generalizar a pergunta 9 (top órgão por função, para todas as funções simultaneamente)
 - Ampliação da janela temporal (incorporar mais meses) para reduzir as distorções identificadas nas limitações
 
 ## 📁 Estrutura do repositório
 
 ```
-projeto-despesas-publicas/
-├── README.md                    <- este arquivo
-├── README.en.md                 <- versão em inglês
-├── sql/
-│   ├── 01_setup_e_importacao.sql
-│   └── 02_queries_analise.sql
-└── powerbi/                     <- (em breve)
+analise-despesas-publicas/
+├── README.md
+├── README.en.md
+├── 01_setup_e_importacao.sql
+├── 02_queries_analise.sql
+├── dashboard_despesas_publicas.pbix
+└── dashboard_preview.png
 ```
 
 ---
