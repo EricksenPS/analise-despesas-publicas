@@ -8,7 +8,7 @@ Este projeto consiste em uma análise exploratória das despesas públicas do Go
 
 O projeto cobre os meses de **maio, junho e julho de 2026**.
 
-![Dashboard Power BI](power%20bi/dashboard_preview.png)
+![Dashboard Power BI](dashboard_preview.png)
 
 ## 🗂️ Fonte dos dados
 
